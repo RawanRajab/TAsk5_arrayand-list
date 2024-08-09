@@ -21,7 +21,7 @@ fun main() {
     println("List contains 'banana'?: ${ListOfFruits.contains("banana")}")
 
     // 4. Convert the list to uppercase and print the modified list.
-    val uppercaseList = ListOfFruits.map { it.uppercase() }
+    val uppercaseList = ListOfFruits.map { it.lowercase() }
     println("Uppercase list: $uppercaseList")
 
     // 1. Declare a mutable list of doubles with the values [1.1, 2.2, 3.3].
